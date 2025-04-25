@@ -1,0 +1,64 @@
+10:31 2025. 04. 23.	Start developing Backend (Django)
+	Pause: 10:50 2025. 04. 23. -> 13:03 2025. 04. 23.
+	- AWS Database creation
+[Lunch Break: 14:03 2025. 04. 23. -> 14:58 2025. 04. 23.]
+	- AWS PostgreSQL Database Connection Established (between Backend and AWS)
+
+
+
+
+15:30 2025. 04. 23.	-> Setting up FRONTEND
+	- Installation of Packages
+[Pause: 15:45 2025. 04. 23. -> 16:57 2025. 04. 23.]
+	- Setting up URLs & Debugging (A package error occurred) [16:57 2025. 04. 23. -> 17:16 2025. 04. 23.]
+	- Setting up Navigational Menu [17:18 2025. 04. 23. -> 18:20 2025. 04. 23.]
+
+19:20 2025. 04. 23.	-> Finding an error -> Reset of PostgreSQL System
+	- Creating a new Database on AWS [19:21 2025. 04. 23. -> 19:49 2025. 04. 23.]
+		- Got a "meltdown" -> Calming down & Starting over again
+		- Recreation of server -> Trying to make everything work again (Appointments, Employees, Departments)
+	NOTES: Tested with django admin interface (PostgreSQL Database).
+	END: 19:49 2025. 04. 23.
+
+19:49 2025. 04. 23.	-> Planning Frontend & Coding
+	END: 23:54 2025. 04. 23.
+
+
+1:13 2025. 04. 25.	-> Carrying on after E-mails
+	- Restarting environment
+	- 1:15 2025. 04. 25. AWS error found (Server Connection Issues, "CONNECTION TIMED OUT")
+		NOTES: It was working, but after starting it today it can't establish the connection
+	- Creating a backup (Project Backup, "backup_1") [1:22 2025. 04. 25. -> 1:27 2025. 04. 25.]
+	- Still encountering server connection issues ("CONNECTION TIMED OUT"), after computer restart (1:28 2025. 04. 25.)
+	- Checking if the server has public visibility enabled
+	- Checking Server Address, codes
+		NOTES: Nothing changed, it should work
+	- Checking if FRONTEND can run separately
+		NOTES: It runs, and can be opened
+	- Retry running Backend (1:34 2025. 04. 25.)
+		NOTES: Same error stands, after checking every detail that could cause the error in "settings.py", nothing changed (Everything was in order).
+	- Recreating database
+1:39 2025. 04. 25. -> Recreating Database from 0 (AWS)
+	- Even deleting the database is slow (Compared to yesterday, still ongoing, 1:43 2025. 04. 25.)
+	- AWS Successfully deleted the old database
+		Timestamp: 1:45 2025. 04. 25.
+	- AWS Starts Creating the Database
+		Timestamp: 1:48 2025. 04. 25.
+	- AWS Finishes Creating the Database
+		Timestamp: 1:55 2025. 04. 25.
+	- Cleaning the "migrations" folder, to avoid ruining the new database & refreshing the address, nothing else has been changed
+	- Encountering the same "Connection timed out (0x0000274C/10060)" error (1:59 2025. 04. 25.)
+	- Systematical Step by step theoretical recreation of the process
+		NOTES: In order to try to figure out what could cause the error
+	- Couldn't find the root of the error (Checked everything from ports to code)
+
+2:04 2025. 04. 25.	-> Completely deleting the Backend & The Database, Restarting
+	- "[virtual environment name]/scripts/activate" doesn't work
+		NOTES: Solved by manually going into the "scripts" folder, then typing in "activate"
+	END: 2:23 2025. 04. 25.
+
+2:23 2025. 04. 25.	-> After recreating the Backend, the AWS database doesn't apply changes to "tables"
+	- Trying to solve the issue
+	- Deleting Database (2:25 2025. 04. 25.)
+	- Creating Database (2:29 2025. 04. 25.)
+	- Encountering the same "time out" error

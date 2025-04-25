@@ -1,0 +1,3 @@
+Super User:
+	username: superuser
+	password: 00000000

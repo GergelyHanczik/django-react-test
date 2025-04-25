@@ -1,0 +1,34 @@
+- Public GIT
+- Time Log
+- English
+
+
+
+
+
+TO DO:
+	- GIT Repository
+	- Time Log
+	- See Below ("Django", "React & TypeScript")
+
+
+
+Django:
+	- With Multiple APPs
+	- Support:
+		- PostgreSQL
+	- PostgreSQL
+	- Database Visualization
+	- API (Django-rest-framework, Django-Ninja, any 3rd party dependencies)
+		- Be able to handle calls from localhost:5000 (CORS)
+	- Custom Exception Handling (Thrown Exceptions -> Handled by: Front End
+	- Write Unit/Integration Tests
+
+
+
+
+React & TypeScript:
+	- As a User:
+		- Appointments in a calendar, that can be used as a sidebar (In the application)
+		- Popup showing additional data for appointments
+		- No 3rd party components for the calendar (But can be used for smaller parts, date picker buttons, etc...)!

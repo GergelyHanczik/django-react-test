@@ -1,0 +1,38 @@
+22:12 2025. 04. 21.	Taking notes, In-Depth Examination of Task
+	NOTES: -
+	END: 22:23 2025. 04. 21.
+22:25 2025. 04. 21.	Preparations for a "1 day learn and employ" routine
+	NOTES: Learn Django and React via W3Schools, complete the test in VS Code (I would prefer JetBrains, but my license has expired)
+	END: 22:45 2025. 04. 21.
+
+
+
+
+
+12:33 2025. 04. 22.	Learning Django (via W3Schools)
+	NOTES: Includes lunch break, Setting up Workspace, Getting mad at VS Code's AI assistant for trying to interfere, helping at home
+
+	- 12:44 2025. 04. 22.	Install python & pip (New Computer)
+		END: 12:57 2025. 04. 22.
+	- 13:28 2025. 04. 22.	Look for a Database Visualization Tool, Install it, Start making the Database Visualization
+		NOTES: Multiple issues found with the Database -> Before the completion of the project, possible fixes and solutions will be implemented
+		END: 14:02 2025. 04. 22.
+	END: 14:04 2025. 04. 22.
+
+[14:04 2025. 04. 22. -> Need to go out into the city (Pécs)]
+
+17:11 2025. 04. 22.	Continue Learning Django (via W3Schools)
+	END: 17:57 2025. 04. 22.
+
+[17:59 2025. 04. 22. -> Preparing for "Learning React"]
+
+
+18:26 2025. 04. 22.	Learning React (via W3Schools)
+	- 18:38 2025. 04. 22.	Waiting for Updates
+		END: 18:43 2025. 04. 22.
+	NOTES: Started watching a ~5 hour youtube course to reinforce knowledge.
+	END: 18:54 2025. 04. 22.
+
+
+
+[19:16 2025. 04. 22. -> Dinner]
